@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/rosemary/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+# Inherit some common P-404 stuff.
+$(call inherit-product, vendor/404/config/common.mk)
 
-PRODUCT_NAME := yaap_rosemary
+PRODUCT_NAME := p404_rosemary
 PRODUCT_DEVICE := rosemary
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
