@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/rosemary/device.mk)
 
 # Inherit some common P-404 stuff.
-$(call inherit-product, vendor/404/config/common.mk)
+$(call inherit-product, vendor/404/configs/common.mk)
 
 PRODUCT_NAME := p404_rosemary
 PRODUCT_DEVICE := rosemary
